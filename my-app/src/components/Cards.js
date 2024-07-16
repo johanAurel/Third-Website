@@ -1,8 +1,15 @@
 import React from 'react';
 
-export default function Cards(props){
-return(<div className='card'>
-    <img src={props.img} alt={props.ref}  className='card--img'/>
-    <h1>{props.name}</h1>
-</div>)}
 
+function Cards(props) {
+    return (
+      <div className="container">
+        <div className='card'>
+          <img src={props.img} alt={props.alt} className='card--img' />
+          <h1 className='card--name'>{props.name}</h1>
+        </div>
+      </div>
+    );
+  }
+  
+  export default Cards;

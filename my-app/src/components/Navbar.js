@@ -1,18 +1,20 @@
 import React from "react";
 
-export default function Navbar(props) {
-    return(
+export default function Navbar() {
+    
+    return (
+
         <div className="navbar">
             <div className="navbar--logo">
-                <img src="./images/logo.png" alt="logo"/>
+                <img src="./images/logo.png" alt="logo" />
             </div>
             <div className="navbar--links">
-                
-                    <p1>Home</p1>
-                    <p1>CV</p1>
-                    <p1>Contact</p1>
-               
+                <p>Home</p>
+                <p>CV</p>
+                <p>Contact</p>
             </div>
         </div>
-    )
+        
+    );
+    
 }
