@@ -10,25 +10,29 @@ export default function App() {
       <div className="container">
         <Cards
           img="../public/images/js/navbar"
-          alt="logo of node.js"
+          alt="node.js"
           name="Node.js"
+          href="./pages/node.html" 
         />
         <Cards
           img="../public/images/aws/aws.png"
-          alt="logo of aws cloud provider"
+          alt="aws cloud provider"
           name="AWS"
+          href="./pages/aws.html"
         />
         <Cards
           img="../public/images/cloud/cloud.png"
-          alt="logo of devops"
+          alt="devops"
           name="DevOps"
+          href="./pages/devops.html"
         />
         <Cards
           img="../public/images/python/python.png"
-          alt="logo of python"
+          alt="python"
           name="Python"
+          href="./pages/python.html"
         />
-        <Cards img="../public/images/c++/c++.jpeg" alt="logo of c++" name="C++" />
+        <Cards img="../public/images/c++/c++.jpeg" alt="c++" name="C++" href="./pages/c++.html" />
       </div>
     </div>
   );

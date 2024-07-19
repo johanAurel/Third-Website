@@ -23,7 +23,7 @@ body {
   border: 1px solid skyblue;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 250px; 
+  width: 300px; 
   margin: 10px;
   margin-left: 50px;
   overflow: hidden;
@@ -39,31 +39,39 @@ body {
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card--img {
-  width: 50px;
-  height: 20px;
-  margin: 2px 2px 2px 2px;
-}
-
 .card--name{
   font-size: 20px;
   margin-bottom: 3px;
   padding: 0;
 }
+
+.card--img {
+  width: 150px;
+  height: 100px;
+  margin: 2px 2px 2px 2px;
+}
+
 .navbar{
 display: flex;
+align-items: wrap;
 background-color: slategrey;
-
+border-radius: 10px;
 }
 
-@media (max-width: 900px) {
-  .card {
-    width: calc(50% - 20px); 
-  }
+.navbar--links{
+  color: wheat;
+  margin: 0 10px;
 }
 
-@media (max-width: 600px) {
-  .card {
-    width: 100%;
-  }
+.navbar-.navbar--links {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
+
+a{
+  color: wheat;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+
