@@ -12,28 +12,29 @@ export default function App() {
           img="../public/images/js/navbar"
           alt="node.js"
           name="Node.js"
-          href="./pages/node.html" 
+          href="/pages/node" 
         />
         <Cards
           img="../public/images/aws/aws.png"
           alt="aws cloud provider"
           name="AWS"
-          href="./pages/aws.html"
+          href="/pages/aws"
         />
         <Cards
           img="../public/images/cloud/cloud.png"
           alt="devops"
           name="DevOps"
-          href="./pages/devops.html"
+          href="/pages/devops"
         />
         <Cards
           img="../public/images/python/python.png"
           alt="python"
           name="Python"
-          href="./pages/python.html"
+          href="/pages/python"
         />
         <Cards img="../public/images/c++/c++.jpeg" alt="c++" name="C++" href="./pages/c++.html" />
       </div>
     </div>
+    
   );
 }
